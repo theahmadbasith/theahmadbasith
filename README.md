@@ -25,44 +25,47 @@
 <!-- 3. ABOUT ME / TERMINAL VIEW -->
 <!-- ======================================================================= -->
 
-<img align="right" width="340" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="Coding Animation" />
+<table align="center" width="100%">
+  <tr>
+    <td width="30%" align="center">
+      <img width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" alt="Coding Animation" />
+    </td>
+    <td width="70%">
+      <b><code>$ whoami</code></b>
+      <br/>
+      <b><code>theahmadbasith — Bridging Government & Technology</code></b>
+      <br/><br/>
+      <pre lang="typescript">
+const developer = {
+  profile: {
+    name       : "Ahmad Abdul Basith, S.Tr.I.P.",
+    alias      : "theahmadbasith",
+    education  : "IPDN (Institut Pemerintahan Dalam Negeri) '25",
+    major      : "Praktik Perpolisian Tata Pamong",
+    role       : "Polisi Pamong Praja Ahli Pertama",
+    division   : "Trantibum & Linmas",
+    location   : "Kabupaten Ponorogo (Origin: Trenggalek)"
+  },
+  tech_stack: {
+    frontend   : ["Next.js 14", "React", "Tailwind CSS"],
+    backend    : ["Google Apps Script", "Google Cloud APIs"],
+    database   : ["Google Sheets", "Google Drive"],
+    mapping    : ["Leaflet", "Mapbox", "Google My Maps"],
+    os         : ["Linux Mint XFCE", "Lubuntu"] // Optimized for 2-4GB RAM
+  },
+  core_philosophy: [
+    "Field-First Engineering ('Jemput Bola' approach)",
+    "Resource-Efficient Architecture",
+    "Digitalizing Public Services (e-Government)"
+  ],
+  contact: "theahmadbasith@gmail.com"
+};
+      </pre>
+    </td>
+  </tr>
+</table>
 
-<h2 align="left">👨‍💻 <b>System Identity & Architecture</b></h2>
-
-> `[root@satpol-pp-pogo] ~ $ ./initialize_profile.sh`
-> *Loading Government Tech Innovator Profile...* █
-
-```typescript
-class FullStackOfficer implements IDigitalTransformation {
-  public readonly identity = {
-    name      : "Ahmad Abdul Basith, S.Tr.I.P.",
-    alias     : "theahmadbasith",
-    education : "Institut Pemerintahan Dalam Negeri (IPDN) '25",
-    major     : "Praktik Perpolisian Tata Pamong"
-  };
-
-  public readonly assignment = {
-    role      : "Polisi Pamong Praja Ahli Pertama",
-    division  : "Trantibum & Linmas",
-    agency    : "Satuan Polisi Pamong Praja",
-    location  : "Kabupaten Ponorogo (Origin: Trenggalek)"
-  };
-
-  public techArsenal = {
-    frontend  : ["Next.js 14", "React", "Tailwind CSS", "PWA"],
-    backend   : ["Google Apps Script", "Google Cloud APIs", "Node.js"],
-    gis_tools : ["Leaflet", "Mapbox", "Google My Maps"],
-    os_env    : ["Linux Mint XFCE", "Lubuntu"] // High-efficiency setup
-  };
-
-  public executeMission(): string {
-    this.applyMethodology("Field-First Engineering / 'Jemput Bola'");
-    this.buildSystem("SENAPATI", "Executive Agenda Navigation");
-    this.buildSystem("SI-PEDAS", "Linmas Data Digitalization");
-    
-    return "Bureaucracy Modernized & Systems Deployed.";
-  }
-}
+<br/>
 
 <!-- ======================================================================= -->
 <!-- 4. TECH ARSENAL (ICONS GRID) -->
