@@ -1,31 +1,9 @@
 <!-- ======================================================================= -->
-<!-- =================== AHMAD ABDUL BASITH — PROFILE README =============== -->
-<!-- ======================================================================= -->
-<!--  Last major revision: June 2026 — now bilingual (EN default / ID toggle) -->
-<!--  Structure map:                                                        -->
-<!--    1. Header Banner                                                    -->
-<!--    2. Typing Animation                                                 -->
-<!--    3. Quick Badges + Language Note                                     -->
-<!--    4. About Me / Terminal View                                        -->
-<!--    5. Tech Arsenal & Proficiency                                       -->
-<!--    6. Currently Building                                               -->
-<!--    7. Flagship Systems & Projects                                      -->
-<!--    8. Engineering Philosophy                                           -->
-<!--    9. GitHub Analytics                                                 -->
-<!--   10. Contribution Snake (Advanced, optional setup)                    -->
-<!--   11. Trophies                                                         -->
-<!--   12. 2026 Focus & Goals                                               -->
-<!--   13. Connect / Contact                                                -->
-<!--   14. Footer                                                           -->
-<!-- ======================================================================= -->
-
-
-<!-- ======================================================================= -->
 <!-- 1. HEADER BANNER -->
 <!-- ======================================================================= -->
 <div align="center">
   <a href="https://github.com/theahmadbasith">
-    <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=280&section=header&text=Ahmad%20Abdul%20Basith,%20S.Tr.I.P.&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Government%20Tech%20Innovator%20%7C%20Full%20Stack%20Engineer&descSize=20&descAlignY=55&descColor=00F0FF&animation=twinkling" alt="Header Banner" />
+    <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=280&section=header&text=Ahmad%20Abdul%20Basith,%20S.Tr.I.P.&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Tech%20Enthusiast%20%7C%20Full%20Stack%20Developer&descSize=20&descAlignY=55&descColor=00F0FF&animation=twinkling" alt="Header Banner" />
   </a>
 </div>
 
@@ -36,8 +14,8 @@
 <div align="center">
   <a href="https://github.com/theahmadbasith">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=900&lines=%F0%9F%9A%80+Full+Stack+Developer+%26+System+Architect;%E2%9A%99%EF%B8%8F+Building+TypeScript+Game+Engines+%26+NLP+Pipelines;%E2%9A%A1+Next.js%2C+React%2C+Node.js+%26+Socket.IO+Specialist;%F0%9F%97%BA%EF%B8%8F+GIS+Enthusiast+(Leaflet+%26+Mapbox);%F0%9F%90%A7+Linux+Power+User+(Mint%2FLubuntu);%F0%9F%92%A1+Digitalizing+Indonesia%27s+Local+Government%2C+One+System+at+a+Time">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=900&lines=%F0%9F%9A%80+Full+Stack+Developer+%26+System+Architect;%E2%9A%99%EF%B8%8F+Building+TypeScript+Game+Engines+%26+NLP+Pipelines;%E2%9A%A1+Next.js%2C+React%2C+Node.js+%26+Socket.IO+Specialist;%F0%9F%97%BA%EF%B8%8F+GIS+Enthusiast+(Leaflet+%26+Mapbox);%F0%9F%90%A7+Linux+Power+User+(Mint%2FLubuntu);%F0%9F%92%A1+Digitalizing+Indonesia%27s+Local+Government%2C+One+System+at+a+Time" alt="Typing Animation" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=900&lines=%F0%9F%9A%80+Full+Stack+Developer+%26+System+Architect;%E2%9A%99%EF%B8%8F+Building+TypeScript+Game+Engines+%26+NLP+Pipelines;%E2%9A%A1+Next.js%2C+React%2C+Node.js+%26+Socket.IO+Specialist;%F0%9F%97%BA%EF%B8%8F+GIS+Enthusiast+(Leaflet+%26+Mapbox);%F0%9F%90%A7+Linux+Power+User+(Kali%2FUbuntu);%F0%9F%92%A1+Digitalizing+Indonesia%27s+Local+Government%2C+One+System+at+a+Time">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=900&lines=%F0%9F%9A%80+Full+Stack+Developer+%26+System+Architect;%E2%9A%99%EF%B8%8F+Building+TypeScript+Game+Engines+%26+NLP+Pipelines;%E2%9A%A1+Next.js%2C+React%2C+Node.js+%26+Socket.IO+Specialist;%F0%9F%97%BA%EF%B8%8F+GIS+Enthusiast+(Leaflet+%26+Mapbox);%F0%9F%90%A7+Linux+Power+User+(Kali%2FUbuntu);%F0%9F%92%A1+Digitalizing+Indonesia%27s+Local+Government%2C+One+System+at+a+Time" alt="Typing Animation" />
     </picture>
   </a>
 </div>
@@ -64,7 +42,7 @@
 
 <p align="center">
   <sub>
-    🇬🇧 English shown by default — click <b>"🇮🇩 Lihat Bahasa Indonesia"</b> under each section to expand the translation.<br/>
+    🇬🇧 English by default — click <b>"🇮🇩 Lihat Bahasa Indonesia"</b> under each section to expand the translation.<br/>
     🇮🇩 README ini dwibahasa — klik tombol di setiap bagian untuk membuka versi Bahasa Indonesia-nya.
   </sub>
 </p>
@@ -105,15 +83,15 @@
       <pre>
 ╔════════════════════════════════════════════════════════╗
 ║   AHMAD ABDUL BASITH, S.Tr.I.P.                         ║
-║   Government Technologist  •  Full Stack Engineer      ║
+║   Government Technologist  •  Full Stack Developer      ║
 ╚════════════════════════════════════════════════════════╝
       </pre>
       <b>$ whoami</b>
       <br/><br/>
       <table>
         <tr><td width="110" valign="top"><b>Name</b></td><td valign="top">: Ahmad Abdul Basith, S.Tr.I.P. (<code>@theahmadbasith</code>)</td></tr>
-        <tr><td valign="top"><b>Education</b></td><td valign="top">: IPDN (Institut Pemerintahan Dalam Negeri) '25 — Praktik Perpolisian Tata Pamong</td></tr>
-        <tr><td valign="top"><b>Role</b></td><td valign="top">: Polisi Pamong Praja Ahli Pertama, Satpol PP Kabupaten Ponorogo (Bidang Trantibum & Linmas)</td></tr>
+        <tr><td valign="top"><b>Education</b></td><td valign="top">: IPDN (Institut Pemerintahan Dalam Negeri) '32 — Praktik Perpolisian Tata Pamong</td></tr>
+        <tr><td valign="top"><b>Role</b></td><td valign="top">: Polisi Pamong Praja Ahli Pertama, Satpol PP Kabupaten Ponorogo</td></tr>
         <tr><td valign="top"><b>Based in</b></td><td valign="top">: Kabupaten Ponorogo, East Java, Indonesia (Originally from Trenggalek)</td></tr>
         <tr><td valign="top"><b>Languages</b></td><td valign="top">: Bahasa Indonesia (Native), Javanese (Native), English (Technical)</td></tr>
         <tr><td valign="top"><b>Approach</b></td><td valign="top">: Field-first engineering — "jemput bola" to the source of the problem</td></tr>
