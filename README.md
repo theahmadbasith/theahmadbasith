@@ -1,12 +1,12 @@
 <!-- ======================================================================= -->
 <!-- =================== AHMAD ABDUL BASITH — PROFILE README =============== -->
 <!-- ======================================================================= -->
-<!--  Last major revision: June 2026                                        -->
+<!--  Last major revision: June 2026 — now bilingual (EN default / ID toggle) -->
 <!--  Structure map:                                                        -->
 <!--    1. Header Banner                                                    -->
 <!--    2. Typing Animation                                                 -->
-<!--    3. Quick Badges                                                     -->
-<!--    4. About Me / Terminal View                                         -->
+<!--    3. Quick Badges + Language Note                                     -->
+<!--    4. About Me / Terminal View                                        -->
 <!--    5. Tech Arsenal & Proficiency                                       -->
 <!--    6. Currently Building                                               -->
 <!--    7. Flagship Systems & Projects                                      -->
@@ -46,7 +46,7 @@
 
 
 <!-- ======================================================================= -->
-<!-- 3. QUICK BADGES -->
+<!-- 3. QUICK BADGES + LANGUAGE NOTE -->
 <!-- ======================================================================= -->
 <div align="center">
 
@@ -62,6 +62,13 @@
   <img src="https://img.shields.io/badge/Languages-Indonesian%20%2F%20Javanese-1a1a2e?style=flat-square&labelColor=0A0E27" />
 </p>
 
+<p align="center">
+  <sub>
+    🇬🇧 English shown by default — click <b>"🇮🇩 Lihat Bahasa Indonesia"</b> under each section to expand the translation.<br/>
+    🇮🇩 README ini dwibahasa — klik tombol di setiap bagian untuk membuka versi Bahasa Indonesia-nya.
+  </sub>
+</p>
+
 <br/>
 
 
@@ -69,6 +76,25 @@
 <!-- 4. ABOUT ME / TERMINAL VIEW -->
 <!-- ======================================================================= -->
 <h2 align="center">👤 <b>About Me</b></h2>
+
+<p align="center">
+  Hi there! I'm Ahmad — a civil servant by title, and a software engineer by habit. By day I handle<br/>
+  regulatory and field operations for Satpol PP Ponorogo; in between, I design and ship the digital<br/>
+  systems that unit actually runs on.
+</p>
+
+<details>
+<summary align="center">🇮🇩 Lihat Bahasa Indonesia</summary>
+<br/>
+<p align="center">
+  Halo! Saya Ahmad — secara struktural seorang aparatur sipil negara, namun dalam keseharian kerja<br/>
+  saya juga seorang pengembang perangkat lunak. Di siang hari saya menangani urusan regulasi dan<br/>
+  operasional lapangan di Satpol PP Ponorogo; di sela-sela itu, saya merancang dan membangun sistem<br/>
+  digital yang benar-benar dipakai oleh unit tersebut.
+</p>
+</details>
+
+<br/>
 
 <table align="center" width="100%">
   <tr>
@@ -188,6 +214,20 @@ const developer = {
         <li>A polished felt-table UI with drag-to-reorder hand sorting and animated reveals</li>
       </ul>
       <code>TypeScript</code> <code>Node.js</code> <code>Socket.IO</code> <code>React</code> <code>Vite</code>
+      <br/><br/>
+      <details>
+      <summary>🇮🇩 Lihat Bahasa Indonesia</summary>
+      <br/>
+      <p>
+        Mesin permainan kartu multiplayer berbasis TypeScript untuk <b>Remi</b>, permainan kartu tradisional
+        Indonesia — dibangun sebagai monorepo Node.js/Socket.IO + React/Vite. Saat ini sedang disempurnakan:
+      </p>
+      <ul>
+        <li>Validasi kombinasi meld secara kombinatorial dengan backtracking, termasuk logika joker sebagai kartu liar</li>
+        <li>Mesin status permainan berbasis giliran yang lengkap dengan deteksi kemenangan yang otoritatif</li>
+        <li>Antarmuka meja felt yang rapi dengan fitur drag-to-reorder untuk menyusun kartu di tangan, lengkap dengan animasi reveal</li>
+      </ul>
+      </details>
     </td>
   </tr>
 </table>
@@ -213,6 +253,16 @@ const developer = {
         full touch-device support.
       </p>
       <code>Next.js 14</code> <code>Leaflet.js</code> <code>Tailwind</code> <code>Vercel</code>
+      <br/><br/>
+      <details>
+      <summary>🇮🇩 Lihat Bahasa Indonesia</summary>
+      <br/>
+      <p>
+        Platform navigasi dan manajemen agenda pimpinan daerah secara real-time, dilengkapi peta interaktif
+        berbasis Leaflet.js untuk memantau agenda publik Bupati, dengan mode fullscreen dan dukungan penuh
+        untuk perangkat layar sentuh.
+      </p>
+      </details>
     </td>
     <td width="50%" valign="top">
       <h3>🚨 SIPEDAS</h3>
@@ -223,6 +273,16 @@ const developer = {
         Indonesian morphological analysis, and persistent session memory.
       </p>
       <code>TypeScript</code> <code>NLP / BM25+</code> <code>GIS Maps</code>
+      <br/><br/>
+      <details>
+      <summary>🇮🇩 Lihat Bahasa Indonesia</summary>
+      <br/>
+      <p>
+        Platform digitalisasi data lapangan untuk Satlinmas (unit perlindungan masyarakat), kini didukung
+        oleh mesin chatbot NLP berbasis TypeScript lebih dari 2.000 baris kode dengan pipeline 8 lapis:
+        pencarian BM25+, analisis morfologi Bahasa Indonesia, dan memori sesi yang persisten.
+      </p>
+      </details>
     </td>
   </tr>
   <!-- ROW 2 -->
@@ -235,6 +295,15 @@ const developer = {
         point, featuring a glassmorphism interface and canvas-based particle animation background.
       </p>
       <code>Next.js</code> <code>Canvas API</code> <code>Glassmorphism UI</code>
+      <br/><br/>
+      <details>
+      <summary>🇮🇩 Lihat Bahasa Indonesia</summary>
+      <br/>
+      <p>
+        Portal terpadu berbasis Next.js yang menyatukan empat aplikasi internal Satpol PP dalam satu pintu
+        akses, dengan antarmuka glassmorphism dan animasi partikel berbasis Canvas API di latar belakang.
+      </p>
+      </details>
     </td>
     <td width="50%" valign="top">
       <h3>📹 CCTV Monitoring Dashboard</h3>
@@ -244,6 +313,15 @@ const developer = {
         using Puppeteer to dynamically capture and refresh WSS streaming tokens.
       </p>
       <code>Puppeteer</code> <code>WebRTC</code> <code>WSS</code>
+      <br/><br/>
+      <details>
+      <summary>🇮🇩 Lihat Bahasa Indonesia</summary>
+      <br/>
+      <p>
+        Dashboard pemantauan yang terintegrasi dengan infrastruktur CCTV WebRTC publik Gasta Ponorogo,
+        menggunakan Puppeteer untuk menangkap dan memperbarui token streaming WSS secara dinamis.
+      </p>
+      </details>
     </td>
   </tr>
   <!-- ROW 3 -->
@@ -256,6 +334,16 @@ const developer = {
         System, plus a built-in banner editor, barcode scanner hook, and an animated SVG waiter character.
       </p>
       <code>React</code> <code>TypeScript</code> <code>Tailwind</code>
+      <br/><br/>
+      <details>
+      <summary>🇮🇩 Lihat Bahasa Indonesia</summary>
+      <br/>
+      <p>
+        Aplikasi self-order untuk restoran dengan antarmuka pelanggan dan Kitchen Display System yang
+        dirancang ulang, dilengkapi editor banner bawaan, hook pemindai barcode, dan karakter pelayan SVG
+        beranimasi.
+      </p>
+      </details>
     </td>
     <td width="50%" valign="top">
       <h3>🏍️ Sunan MotoTrack</h3>
@@ -265,6 +353,15 @@ const developer = {
         feature supporting Indonesian and full Javanese dialects.
       </p>
       <code>PWA</code> <code>Voice API</code> <code>Tailwind CSS</code>
+      <br/><br/>
+      <details>
+      <summary>🇮🇩 Lihat Bahasa Indonesia</summary>
+      <br/>
+      <p>
+        Progressive web app untuk penjualan dan manajemen inventaris sepeda motor, dengan fitur input suara
+        yang mendukung Bahasa Indonesia maupun dialek Jawa secara menyeluruh.
+      </p>
+      </details>
     </td>
   </tr>
 </table>
@@ -295,6 +392,29 @@ const developer = {
     </tr>
   </table>
 </div>
+
+<details>
+<summary align="center">🇮🇩 Lihat Bahasa Indonesia</summary>
+<br/>
+<div align="center">
+  <table width="90%">
+    <tr>
+      <td align="center" width="33%">
+        <b>🚶 Field-First Engineering</b><br/>
+        <sub>"Jemput bola" — turun langsung ke lokasi masalah sebelum menulis satu baris kode pun.</sub>
+      </td>
+      <td align="center" width="33%">
+        <b>🪶 Hemat Resource secara Default</b><br/>
+        <sub>Dirancang untuk berjalan lancar di komputer kerja pemerintahan dengan RAM 2–4GB, bukan hanya di mesin kelas atas.</sub>
+      </td>
+      <td align="center" width="33%">
+        <b>🏛️ Mendigitalisasi Pelayanan Publik</b><br/>
+        <sub>Mengganti birokrasi manual berbasis kertas dengan sistem digital yang mudah dirawat dan diakses.</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+</details>
 
 <br/>
 
@@ -381,7 +501,7 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ "{{" }} secrets.GITHUB_TOKEN {{ "}}" }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 Then embed it like so, once the `output` branch exists:
@@ -424,6 +544,21 @@ Then embed it like so, once the `output` branch exists:
 | Document and open-source reusable GIS components built on Leaflet.js | ⚪ Planned |
 
 </div>
+
+<details>
+<summary align="center">🇮🇩 Lihat Bahasa Indonesia</summary>
+<br/>
+<div align="center">
+
+| Target | Status |
+|---|:---:|
+| Menyelesaikan mesin multiplayer Remi (BENDES-AN) dari ujung ke ujung | 🟡 Sedang berjalan |
+| Memperluas pipeline NLP SIPEDAS dengan cakupan morfologi Bahasa Indonesia yang lebih kaya | 🟡 Sedang berjalan |
+| Menyatukan perangkat internal Satpol PP di bawah SIMPUL-PP | 🟢 Berkelanjutan |
+| Mendokumentasikan dan meng-open-source komponen GIS berbasis Leaflet.js yang reusable | ⚪ Direncanakan |
+
+</div>
+</details>
 
 <br/>
 
@@ -468,6 +603,16 @@ Then embed it like so, once the `output` branch exists:
     <br/>
     <i>Building efficient systems from Ponorogo to the Cloud.</i>
   </sub>
+  <br/><br/>
+  <details>
+  <summary>🇮🇩 Lihat Bahasa Indonesia</summary>
+  <br/>
+  <sub>
+    <code>"Kode itu seperti humor. Kalau harus dijelaskan, berarti jelek."</code>
+    <br/>
+    <i>Membangun sistem yang efisien dari Ponorogo hingga ke Cloud.</i>
+  </sub>
+  </details>
 </div>
 
 <!-- END OF README -->
