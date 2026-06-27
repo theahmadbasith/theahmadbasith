@@ -108,30 +108,23 @@
 ║   Government Technologist  •  Full Stack Engineer      ║
 ╚════════════════════════════════════════════════════════╝
       </pre>
-      <b><code>$ whoami</code></b>
+      <b>$ whoami</b>
       <br/><br/>
-      <pre lang="typescript">
-const developer = {
-  profile: {
-    name        : "Ahmad Abdul Basith, S.Tr.I.P.",
-    alias       : "theahmadbasith",
-    education   : "IPDN (Institut Pemerintahan Dalam Negeri) '25",
-    major       : "Praktik Perpolisian Tata Pamong",
-    role        : "Polisi Pamong Praja Ahli Pertama",
-    unit        : "Satpol PP Kabupaten Ponorogo — Bidang Trantibum & Linmas",
-    origin      : "Trenggalek",
-    based_in    : "Kabupaten Ponorogo, East Java, Indonesia"
-  },
-  languages_spoken: ["Bahasa Indonesia (Native)", "Javanese (Native)", "English (Technical)"],
-  mission: [
-    "Bridging bureaucracy and modern software engineering",
-    "Building lightweight tools that work on low-spec hardware",
-    "Turning manual administrative workflows into digital systems"
-  ],
-  approach: "Field-first engineering — 'jemput bola' to the source of the problem",
-  contact: "theahmadbasith@gmail.com"
-};
-      </pre>
+      <b>Name:</b> Ahmad Abdul Basith, S.Tr.I.P. &nbsp;(<code>@theahmadbasith</code>)
+      <br/>
+      <b>Education:</b> IPDN (Institut Pemerintahan Dalam Negeri) '25 — Praktik Perpolisian Tata Pamong
+      <br/>
+      <b>Role:</b> Polisi Pamong Praja Ahli Pertama, Satpol PP Kabupaten Ponorogo (Bidang Trantibum & Linmas)
+      <br/>
+      <b>Based in:</b> Kabupaten Ponorogo, East Java, Indonesia &nbsp;(Originally from Trenggalek)
+      <br/>
+      <b>Languages:</b> Bahasa Indonesia (Native), Javanese (Native), English (Technical)
+      <br/>
+      <b>Approach:</b> Field-first engineering — "jemput bola" to the source of the problem
+      <br/>
+      <b>Mission:</b> Bridging bureaucracy and modern software engineering, building lightweight tools for low-spec hardware, and turning manual administrative workflows into digital systems
+      <br/>
+      <b>Contact:</b> theahmadbasith@gmail.com
     </td>
   </tr>
 </table>
